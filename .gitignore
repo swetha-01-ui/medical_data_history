@@ -1,0 +1,23 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore env/config files (if created)
+.env
+*.env
+
+# Ignore Docker volumes (if mapped)
+data/
+
+# Ignore node/python caches (in case used later)
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore process.md
+process.md
